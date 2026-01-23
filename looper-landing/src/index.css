@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-condensed: 'Barlow Condensed', sans-serif;
+
+  --color-primary: #FF4D4D;
+  /* Punchy Orange-Red for Dark Mode */
+}
+
+:root {
+  /* Permanent Midnight Theme (Jaquier Style) */
+  --color-bg-main: #050505;
+  /* True Black/Midnight */
+  --color-text-main: #EAEAEA;
+  --color-text-muted: #888888;
+  --color-stroke: #1A1A1A;
+
+  /* Retain base colors if needed for utilities */
+  --color-cream-base: #FDFBF7;
+  --color-charcoal-base: #1E293B;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-bg-main);
+    color: var(--color-text-main);
+    @apply font-sans antialiased overflow-x-hidden;
+    /* Removed transition as theme is static now */
+    background-image: radial-gradient(circle at 50% 0%, color-mix(in srgb, var(--color-primary), transparent 96%) 0%, transparent 60%);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-condensed font-bold tracking-tight uppercase;
+  }
+
+  /* Force white strokes for dark mode */
+  .stroke-text {
+    -webkit-text-stroke: 2px var(--color-stroke);
+  }
+
+  .stroke-text-white {
+    -webkit-text-stroke: 2px var(--color-primary);
+    color: transparent;
+  }
+}
