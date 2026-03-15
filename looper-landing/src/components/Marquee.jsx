@@ -1,6 +1,47 @@
 import { motion as Motion } from 'framer-motion';
 
-const words = ["RUNNING", "CYCLING", "EXHIBITIONS", "MEETUPS", "HIKING", "YOGA", "FOOTBALL", "ARTISTS", "CLUBS"];
+const words = [
+"RUNNING",
+"CYCLING",
+"HIKING",
+"YOGA",
+"FOOTBALL",
+"BASKETBALL",
+"SKATEBOARDING",
+"SURFING",
+"CLIMBING",
+"DANCING",
+"WORKOUTS",
+"MEETUPS",
+"COFFEE",
+"WALKING",
+"JOGGING",
+"BOOKCLUBS",
+"STARTUPS",
+"BUILDERS",
+"CREATORS",
+"ARTISTS",
+"MUSICIANS",
+"PHOTOGRAPHY",
+"FILMMAKERS",
+"EXHIBITIONS",
+"GALLERIES",
+"WORKSHOPS",
+"VOLUNTEERING",
+"COMMUNITIES",
+"CLUBS",
+"LANGUAGE",
+"NETWORKING",
+"PICKUPGAMES",
+"MEDITATION",
+"OUTDOORS",
+"SUNRISES",
+"SUNSETS",
+"ADVENTURES",
+"FRIENDS",
+"TRIBES",
+"CREW"
+];
 
 export default function Marquee() {
     return (
@@ -8,8 +49,8 @@ export default function Marquee() {
             <div className="flex whitespace-nowrap">
                 <Motion.div
                     className="flex gap-16 pr-16"
-                    animate={{ x: [0, -1000] }}
-                    transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
+                    animate={{ x: [0, -10000] }}
+                    transition={{ duration: 45, repeat: Infinity, ease: "linear" }}
                 >
                     {[...words, ...words, ...words, ...words].map((word, i) => (
                         <span key={i} className="text-6xl md:text-8xl font-condensed font-bold text-primary opacity-90">
@@ -19,8 +60,8 @@ export default function Marquee() {
                 </Motion.div>
                 <Motion.div
                     className="flex gap-16 pr-16"
-                    animate={{ x: [0, -1000] }}
-                    transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
+                    animate={{ x: [0, -10000] }}
+                    transition={{ duration: 45, repeat: Infinity, ease: "linear" }}
                 >
                     {[...words, ...words, ...words, ...words].map((word, i) => (
                         <span key={`dup-${i}`} className="text-6xl md:text-8xl font-condensed font-bold text-primary opacity-90">

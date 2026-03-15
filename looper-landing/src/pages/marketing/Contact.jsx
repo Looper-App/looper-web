@@ -10,26 +10,30 @@ export default function Contact() {
                 className="max-w-4xl"
             >
                 <h1 className="text-6xl md:text-9xl font-condensed font-bold mb-8 text-charcoal leading-none">
-                    GET IN <br /> <span className="text-primary stroke-text-white">TOUCH</span>
+                    <br /> <span className="text-primary stroke-text-white">LOOP IN WITH THE TEAM</span>
                 </h1>
 
                 <div className="mt-16 border-t border-gray-200 pt-12">
                     <div className="grid md:grid-cols-2 gap-12">
                         <div>
                             <p className="text-gray-500 uppercase tracking-widest text-sm font-bold mb-4">Contact Details</p>
-                            <h3 className="text-3xl md:text-4xl font-bold text-charcoal mb-2">athul@looper.in</h3>
+                            <a
+                                href="mailto:athul@looper.in"
+                                className="text-3xl md:text-4xl font-bold text-charcoal mb-2 inline-flex hover:text-primary transition-colors"
+                            >
+                                athul@looper.in
+                            </a>
                             <div className="mt-8">
                                 <p className="text-xl font-bold text-charcoal">Athul Sreekumar</p>
-                                <p className="text-primary font-medium tracking-wide">CEO - Looper</p>
+                                <p className="text-primary font-medium tracking-wide">Founder - Looper</p>
                             </div>
                         </div>
 
                         <div>
                             <p className="text-gray-500 uppercase tracking-widest text-sm font-bold mb-4">Office</p>
                             <p className="text-xl text-charcoal leading-relaxed">
-                                HSR Layout,<br />
-                                Bangalore, Karnataka,<br />
-                                India 560102
+                                Around the neighborhood,<br />
+                                Bangalore, Karnataka.
                             </p>
                         </div>
                     </div>

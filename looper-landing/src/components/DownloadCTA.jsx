@@ -2,7 +2,7 @@ import { motion as Motion } from 'framer-motion';
 
 export default function DownloadCTA() {
     return (
-        <section className="py-24 bg-primary text-black select-none">
+        <section id="download-cta" className="py-24 bg-primary text-black select-none">
             <div className="container mx-auto px-4 text-center">
                 <Motion.h2
                     initial={{ opacity: 0, y: 20 }}

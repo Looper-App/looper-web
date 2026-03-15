@@ -8,6 +8,10 @@
   /* Rich gold accent for the dark canvas */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   /* Permanent Midnight Theme (Jaquier Style) */
   --color-bg-main: #050505;

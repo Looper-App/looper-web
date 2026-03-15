@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 export default function HeroBento() {
     return (
         <section className="pt-32 pb-12 px-4 container mx-auto">
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 h-auto lg:h-[800px]">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 h-auto lg:h-[680px]">
                 {/* Main Hero Card (Left) */}
                 <BentoCard className="lg:col-span-8 relative p-8 md:p-12 flex flex-col justify-between overflow-hidden border-none!">
                     <div className="absolute inset-0 bg-[url('/images/pexels-cottonbro-5650910.jpg')] bg-cover bg-center"></div>
@@ -27,17 +27,23 @@ export default function HeroBento() {
                         </h1>
 
                         <p className="text-xl md:text-2xl text-gray-200 max-w-xl leading-relaxed relative z-20 drop-shadow-md">
-                            The social network for people who do things. Connect through running, art, music, and spontaneous moments.
+                            <span className="line-through decoration-primary decoration-2">The social network</span> for people who do things. Connect through running, art, music, and spontaneous moments.
                         </p>
                     </div>
 
                     <div className="flex flex-wrap gap-4 mt-12 relative z-20">
-                        <button className="bg-primary text-white px-8 py-4 rounded-full text-lg font-bold hover:scale-105 transition-transform shadow-lg shadow-primary/30 border border-white/10">
+                        <a
+                            href="#download-cta"
+                            className="bg-primary text-white px-8 py-4 rounded-full text-lg font-bold hover:scale-105 transition-transform shadow-lg shadow-primary/30 border border-white/10 inline-flex items-center justify-center"
+                        >
                             Download App
-                        </button>
-                        <button className="px-8 py-4 rounded-full border border-white/30 text-white text-lg font-medium hover:bg-white/10 transition-colors backdrop-blur-sm">
+                        </a>
+                        <a
+                            href="#features-bento"
+                            className="px-8 py-4 rounded-full border border-white/30 text-white text-lg font-medium hover:bg-white/10 transition-colors backdrop-blur-sm inline-flex items-center justify-center"
+                        >
                             View Features
-                        </button>
+                        </a>
                     </div>
                 </BentoCard>
 

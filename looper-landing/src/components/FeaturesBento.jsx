@@ -5,7 +5,7 @@ import mapBackground from '../assets/map.png';
 
 export default function FeaturesBento() {
     return (
-        <section className="py-24 px-4 container mx-auto">
+        <section id="features-bento" className="py-24 px-4 container mx-auto">
             <div className="flex flex-col md:flex-row justify-between items-end mb-16 px-4">
                 <h2 className="text-6xl md:text-8xl font-condensed font-bold leading-[0.9]">
                     BUILT FOR <br /> <span className="text-primary stroke-text-transparent">MOVEMENT.</span>
@@ -21,10 +21,10 @@ export default function FeaturesBento() {
                     <div className="absolute inset-0 bg-[url('/images/pexels-mannydream-6561813.jpg')] bg-cover bg-center transition-all duration-700 group-hover:scale-105"></div>
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
                     <div className="absolute bottom-8 left-8">
-                        <div className="flex items-center gap-2 mb-2 text-green-400 font-bold uppercase tracking-widest text-xs">
+                        {/* <div className="flex items-center gap-2 mb-2 text-green-400 font-bold uppercase tracking-widest text-xs">
                             <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
                             Live Now
-                        </div>
+                        </div> */}
                         <h3 className="text-4xl font-condensed font-bold text-white mb-2">Real-time Map</h3>
                         <p className="text-gray-300 max-w-sm">See who's running, cycling, or hanging out nearby instantly.</p>
                     </div>
