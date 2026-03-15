@@ -45,7 +45,7 @@ export default function AppShowcase() {
                     <div className="w-full h-full bg-cream rounded-[2.2rem] overflow-hidden relative flex flex-col justify-end pb-8 px-4">
                         <div className="bg-white p-4 rounded-2xl shadow-lg mb-4">
                             <div className="flex items-center gap-2 mb-2">
-                                <div className="w-2 h-2 rounded-full bg-red-500" />
+                                <div className="w-2 h-2 rounded-full bg-primary" />
                                 <span className="font-bold text-charcoal">5k Run Club</span>
                                 <span className="ml-auto text-gray-400 text-xs">300m</span>
                             </div>

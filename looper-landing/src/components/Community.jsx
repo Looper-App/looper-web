@@ -10,7 +10,7 @@ export default function Community() {
     return (
         <section className="py-32 bg-charcoal text-white relative overflow-hidden">
             {/* Background Noise/Gradient */}
-            <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#D93F3F_1px,transparent_1px)] [background-size:16px_16px]"></div>
+            <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#E7C21D_1px,transparent_1px)] [background-size:16px_16px]"></div>
 
             <div className="container mx-auto px-4 relative z-10">
                 <Motion.div
