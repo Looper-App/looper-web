@@ -3,9 +3,9 @@ import Footer from '../components/Footer';
 
 export default function MarketingLayout() {
     return (
-        <div className="min-h-screen bg-cream selection:bg-primary/20 selection:text-primary overflow-x-hidden">
+        <div className="min-h-screen bg-black selection:bg-primary/20 selection:text-primary overflow-x-hidden">
             {/* Navigation */}
-            <nav className="fixed w-full z-50 top-0 left-0 bg-white/85 dark:bg-[#050505]/85 backdrop-blur-md border-b border-gray-200/50 dark:border-white/5 transition-all duration-300">
+            <nav className="fixed w-full z-50 top-0 left-0 bg-black/95 backdrop-blur-md border-b border-gray-900/50 transition-all duration-300">
                 <div className="container mx-auto px-4 h-20 flex items-center justify-between">
                     <Link to="/" className="text-3xl font-condensed font-bold text-primary tracking-tight">looper.</Link>
                     <div className="flex items-center gap-8">
