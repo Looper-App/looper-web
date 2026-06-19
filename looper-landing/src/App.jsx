@@ -9,6 +9,7 @@ import MarketingLayout from './layouts/MarketingLayout';
 import Home from './pages/marketing/Home';
 import About from './pages/marketing/About';
 import Contact from './pages/marketing/Contact';
+import Privacy from './pages/marketing/Privacy';
 
 export default function App() {
   useEffect(() => {
@@ -29,6 +30,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/privacy" element={<Privacy />} />
         </Route>
       </Routes>
     </BrowserRouter>
