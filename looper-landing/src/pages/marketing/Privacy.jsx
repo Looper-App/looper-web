@@ -106,6 +106,7 @@ export default function Privacy() {
                         <h2 className="text-2xl font-bold text-cream mb-4">5. Data Retention</h2>
                         <ul className="list-disc list-inside flex flex-col gap-2 text-gray-400">
                             <li><span className="text-gray-300">Profile and account data</span> is retained for as long as your account is active.</li>
+                            <li><span className="text-gray-300">Inactive accounts</span> — accounts with no activity for 90 consecutive days will be automatically deleted, along with all associated data. You will receive a notification before deletion occurs.</li>
                             <li><span className="text-gray-300">Conversation transcripts and AI memory</span> are retained to enable personalization over time. You may request deletion at any time (see Section 7).</li>
                             <li><span className="text-gray-300">Location data</span> is stored only when actively provided during a session.</li>
                         </ul>
