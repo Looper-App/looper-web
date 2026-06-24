@@ -10,6 +10,7 @@ import Home from './pages/marketing/Home';
 import About from './pages/marketing/About';
 import Contact from './pages/marketing/Contact';
 import Privacy from './pages/marketing/Privacy';
+import ChildSafety from './pages/marketing/ChildSafety';
 
 export default function App() {
   useEffect(() => {
@@ -31,6 +32,7 @@ export default function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/privacy" element={<Privacy />} />
+          <Route path="/child-safety" element={<ChildSafety />} />
         </Route>
       </Routes>
     </BrowserRouter>
