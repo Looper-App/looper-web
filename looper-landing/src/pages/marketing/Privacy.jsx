@@ -164,8 +164,8 @@ export default function Privacy() {
                         <p>
                             If you have questions or concerns about this Privacy Policy or your data, please
                             contact us at{' '}
-                            <a href="mailto:athult2000@gmail.com" className="text-primary hover:underline">
-                                athult2000@gmail.com
+                            <a href="mailto:athul@looper.in" className="text-primary hover:underline">
+                                athul@looper.in
                             </a>.
                         </p>
                     </section>
