@@ -20,8 +20,8 @@ export default function Footer() {
                     <div className="flex flex-col gap-4">
                         <h4 className="text-primary font-bold uppercase tracking-widest text-sm">Legal</h4>
                         <Link to="/privacy" className="hover:text-primary transition-colors">Privacy</Link>
-                        <a href="#" className="hover:text-primary transition-colors">Terms</a>
-                        <a href="#" className="hover:text-primary transition-colors">Contact</a>
+                        <Link to="/child-safety" className="hover:text-primary transition-colors">Child Safety</Link>
+                        <Link to="/contact" className="hover:text-primary transition-colors">Contact</Link>
                     </div>
                 </div>
             </div>
