@@ -10,13 +10,6 @@
 
   --color-primary: #E7C21D;
   /* Rich gold accent for the dark canvas */
-
-  /* Tailwind only generates bg-cream/text-charcoal-style utilities from
-     --color-* tokens declared in this @theme block, so these live here
-     (not in :root) and are named to match the class names used throughout
-     the components (bg-cream, text-charcoal, etc). */
-  --color-cream: #FDFBF7;
-  --color-charcoal: #1E293B;
 }
 
 html {
@@ -30,6 +23,10 @@ html {
   --color-text-main: #EAEAEA;
   --color-text-muted: #888888;
   --color-stroke: #1A1A1A;
+
+  /* Retain base colors if needed for utilities */
+  --color-cream-base: #FDFBF7;
+  --color-charcoal-base: #1E293B;
 }
 
 @layer base {

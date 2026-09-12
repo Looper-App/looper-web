@@ -31,7 +31,7 @@ export default function About() {
                 description="Looper weaves location, activity, and trust into micro-communities so people can stop re-planning and start doing. Learn what drives Looper's team in Bangalore."
                 path="/about"
             />
-            <h1 className="text-6xl md:text-8xl font-condensed font-bold mb-8">ABOUT <br /><span className="text-primary">LOOPER</span></h1>
+            <h1 className="text-6xl md:text-8xl font-condensed font-bold mb-8 text-charcoal">ABOUT <br /><span className="text-primary">LOOPER</span></h1>
             <p className="text-xl max-w-3xl text-gray-600 leading-relaxed mb-4">
                 The most meaningful relationships start in the same room. Looper was made to blur the line between “thumb-stopping” and “showing up”.
             </p>
@@ -42,7 +42,7 @@ export default function About() {
             <div className="grid gap-6 lg:grid-cols-[2fr_1fr] mb-12 items-center">
                 <div className="space-y-6">
                     <div className="text-sm uppercase tracking-[0.4em] text-gray-400">Why Looper is yours</div>
-                    <p className="text-2xl md:text-3xl font-bold max-w-xl">
+                    <p className="text-2xl md:text-3xl font-bold text-charcoal max-w-xl">
                         Looper keeps the doers in constant motion. Discover a Loop, commit in public, and feel the momentum of a community that actually shows up.
                     </p>
                 </div>
