@@ -15,7 +15,7 @@ export default function Contact() {
                 transition={{ duration: 0.8 }}
                 className="max-w-4xl"
             >
-                <h1 className="text-6xl md:text-9xl font-condensed font-bold mb-8 text-charcoal leading-none">
+                <h1 className="text-6xl md:text-9xl font-condensed font-bold mb-8 leading-none">
                     <br /> <span className="text-primary stroke-text-white">LOOP IN WITH THE TEAM</span>
                 </h1>
 
@@ -29,19 +29,19 @@ export default function Contact() {
                             <p className="text-gray-500 uppercase tracking-widest text-sm font-bold mb-4">Contact Details</p>
                             <a
                                 href="mailto:athul@looper.in"
-                                className="text-3xl md:text-4xl font-bold text-charcoal mb-2 inline-flex hover:text-primary transition-colors"
+                                className="text-3xl md:text-4xl font-bold mb-2 inline-flex hover:text-primary transition-colors"
                             >
                                 athul@looper.in
                             </a>
                             <div className="mt-8">
-                                <p className="text-xl font-bold text-charcoal">Athul Sreekumar</p>
+                                <p className="text-xl font-bold">Athul Sreekumar</p>
                                 <p className="text-primary font-medium tracking-wide">Founder - Looper</p>
                             </div>
                         </div>
 
                         <div>
                             <p className="text-gray-500 uppercase tracking-widest text-sm font-bold mb-4">Office</p>
-                            <p className="text-xl text-charcoal leading-relaxed">
+                            <p className="text-xl leading-relaxed">
                                 Around the neighborhood,<br />
                                 Bangalore, Karnataka.
                             </p>

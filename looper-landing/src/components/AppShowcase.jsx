@@ -7,7 +7,7 @@ export default function AppShowcase() {
     return (
         <section className="py-24 overflow-hidden relative">
             <div className="container mx-auto px-4 text-center mb-16">
-                <h2 className="text-4xl font-bold text-charcoal mb-4">Designed for Motion</h2>
+                <h2 className="text-4xl font-bold mb-4">Designed for Motion</h2>
                 <p className="text-lg text-gray-500 max-w-2xl mx-auto">
                     A clean, intuitive interface that gets you out of the app and into the real world.
                 </p>

@@ -31,7 +31,7 @@ export default function Pitch() {
                 noindex
             />
 
-            <h1 className="text-6xl md:text-8xl font-condensed font-bold mb-4 text-charcoal">
+            <h1 className="text-6xl md:text-8xl font-condensed font-bold mb-4">
                 PITCH <span className="text-primary">DECK</span>
             </h1>
             <p className="text-lg text-gray-500 max-w-2xl mb-12">
