@@ -13,9 +13,8 @@ export default function Footer() {
                 <div className="flex gap-16">
                     <div className="flex flex-col gap-4">
                         <h4 className="text-primary font-bold uppercase tracking-widest text-sm">Socials</h4>
-                        <a href="#" className="hover:text-primary transition-colors">Instagram</a>
-                        <a href="#" className="hover:text-primary transition-colors">Twitter</a>
-                        <a href="#" className="hover:text-primary transition-colors">LinkedIn</a>
+                        <a href="https://www.instagram.com/trylooper" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Instagram</a>
+                        <a href="https://x.com/trylooperapp" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Twitter</a>
                     </div>
                     <div className="flex flex-col gap-4">
                         <h4 className="text-primary font-bold uppercase tracking-widest text-sm">Legal</h4>
