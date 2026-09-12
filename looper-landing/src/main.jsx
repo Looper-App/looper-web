@@ -14,6 +14,7 @@ import App from './App.jsx'
 [
   'title',
   'meta[name="description"]',
+  'meta[name="robots"]',
   'link[rel="canonical"]',
   'meta[property="og:title"]',
   'meta[property="og:description"]',

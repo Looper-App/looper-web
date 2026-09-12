@@ -9,6 +9,7 @@ import MarketingLayout from './layouts/MarketingLayout';
 // secondary routes are code-split so first-time visitors don't pay for them)
 import Home from './pages/marketing/Home';
 const About = lazy(() => import('./pages/marketing/About'));
+const Pitch = lazy(() => import('./pages/marketing/Pitch'));
 const Contact = lazy(() => import('./pages/marketing/Contact'));
 const Privacy = lazy(() => import('./pages/marketing/Privacy'));
 const ChildSafety = lazy(() => import('./pages/marketing/ChildSafety'));
@@ -59,6 +60,7 @@ export default function App() {
           <Route element={<MarketingLayout />}>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
+            <Route path="/pitch" element={<Pitch />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/child-safety" element={<ChildSafety />} />
