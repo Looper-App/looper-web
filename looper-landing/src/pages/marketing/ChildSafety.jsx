@@ -89,8 +89,8 @@ export default function ChildSafety() {
 
                         <p className="mb-4">
                             You may also report directly by email to{' '}
-                            <a href="mailto:athult2000@gmail.com" className="text-primary hover:underline">
-                                athult2000@gmail.com
+                            <a href="mailto:athul@looper.in" className="text-primary hover:underline">
+                                athul@looper.in
                             </a>{' '}
                             with the subject line <span className="text-cream font-semibold">"Child Safety Report"</span>.
                             Include as much detail as possible — user ID, activity ID, description of the
@@ -153,8 +153,8 @@ export default function ChildSafety() {
                             <p className="text-cream font-semibold mb-3">Child Safety Contact</p>
                             <p className="text-gray-400 mb-1">
                                 Email:{' '}
-                                <a href="mailto:athult2000@gmail.com" className="text-primary hover:underline">
-                                    athult2000@gmail.com
+                                <a href="mailto:athul@looper.in" className="text-primary hover:underline">
+                                    athul@looper.in
                                 </a>
                             </p>
                             <p className="text-gray-400 mb-4">Subject line: <span className="text-gray-300 italic">Child Safety Report</span></p>
