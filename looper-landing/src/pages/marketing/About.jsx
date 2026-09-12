@@ -1,4 +1,5 @@
 import BentoCard from '../../components/ui/BentoCard';
+import Seo from '../../components/Seo';
 import mapBackground from '../../assets/map.png';
 
 const flowSteps = [
@@ -25,6 +26,11 @@ const values = [
 export default function About() {
     return (
         <div className="pt-32 pb-24 container mx-auto px-4 min-h-screen">
+            <Seo
+                title="About Looper — Our Mission for Real-World Connection"
+                description="Looper weaves location, activity, and trust into micro-communities so people can stop re-planning and start doing. Learn what drives Looper's team in Bangalore."
+                path="/about"
+            />
             <h1 className="text-6xl md:text-8xl font-condensed font-bold mb-8 text-charcoal">ABOUT <br /><span className="text-primary">LOOPER</span></h1>
             <p className="text-xl max-w-3xl text-gray-600 leading-relaxed mb-4">
                 The most meaningful relationships start in the same room. Looper was made to blur the line between “thumb-stopping” and “showing up”.

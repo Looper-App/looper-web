@@ -1,0 +1,16 @@
+{
+  "name": "Looper",
+  "short_name": "Looper",
+  "description": "Find your loop — connect with people nearby for sports, hobbies, and spontaneous meetups.",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#050505",
+  "background_color": "#050505",
+  "display": "standalone",
+  "start_url": "/"
+}
