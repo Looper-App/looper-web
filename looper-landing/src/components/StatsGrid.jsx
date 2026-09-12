@@ -11,14 +11,14 @@ const stats = [
 export default function StatsGrid() {
     return (
         <section className="py-12 px-4 container mx-auto">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 auto-rows-[220px] md:auto-rows-[250px]">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 auto-rows-[180px] sm:auto-rows-[220px] md:auto-rows-[250px]">
                 {stats.map((stat, i) => (
                     <BentoCard
                         key={i}
-                        className="p-8 text-center bg-white dark:bg-[#151518] border-none! flex flex-col justify-center"
+                        className="p-6 md:p-8 text-center bg-white dark:bg-[#151518] border-none! flex flex-col justify-center"
                         delay={0.1 * i}
                     >
-                        <div className="text-base md:text-lg font-semibold uppercase tracking-[0.3em] text-primary leading-relaxed">
+                        <div className="text-sm sm:text-base md:text-lg font-semibold uppercase tracking-[0.05em] sm:tracking-[0.15em] md:tracking-[0.3em] text-primary leading-relaxed">
                             {stat}
                         </div>
                     </BentoCard>
