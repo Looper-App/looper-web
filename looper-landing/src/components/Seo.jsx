@@ -3,13 +3,14 @@ import { Helmet } from 'react-helmet-async';
 const SITE_URL = 'https://looper.in';
 const DEFAULT_IMAGE = `${SITE_URL}/images/pexels-cottonbro-5650910.jpg`;
 
-export default function Seo({ title, description, path = '/', image = DEFAULT_IMAGE }) {
+export default function Seo({ title, description, path = '/', image = DEFAULT_IMAGE, noindex = false }) {
     const url = `${SITE_URL}${path}`;
 
     return (
         <Helmet>
             <title>{title}</title>
             <meta name="description" content={description} />
+            <meta name="robots" content={noindex ? 'noindex, nofollow' : 'index, follow'} />
             <link rel="canonical" href={url} />
 
             <meta property="og:title" content={title} />

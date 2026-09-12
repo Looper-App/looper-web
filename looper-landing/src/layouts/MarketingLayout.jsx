@@ -28,6 +28,14 @@ export default function MarketingLayout() {
                                 About
                             </NavLink>
                             <NavLink
+                                to="/pitch"
+                                className={({ isActive }) =>
+                                    `transition-colors ${isActive ? 'text-primary' : 'text-[var(--color-text-main)] hover:text-primary'}`
+                                }
+                            >
+                                Pitch
+                            </NavLink>
+                            <NavLink
                                 to="/contact"
                                 className={({ isActive }) =>
                                     `transition-colors ${isActive ? 'text-primary' : 'text-[var(--color-text-main)] hover:text-primary'}`
