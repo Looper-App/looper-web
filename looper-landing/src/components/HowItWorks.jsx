@@ -27,7 +27,7 @@ export default function HowItWorks() {
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ margin: "-100px" }}
                             transition={{ duration: 0.5 }}
-                            className="group border-b border-gray-200 py-12 flex flex-col md:flex-row items-baseline gap-8 hover:bg-white hover:px-8 transition-all duration-300 rounded-2xl cursor-pointer"
+                            className="group border-b border-gray-200 py-12 flex flex-col md:flex-row items-start md:items-baseline gap-3 md:gap-8 hover:bg-white md:hover:px-8 transition-all duration-300 rounded-2xl cursor-pointer"
                         >
                             <span className="text-sm font-mono text-gray-400">({step.num})</span>
                             <h3 className="text-5xl md:text-7xl font-condensed font-bold group-hover:text-primary transition-colors">
