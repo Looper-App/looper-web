@@ -36,7 +36,7 @@ export default function HeroBento() {
                             href="#download-cta"
                             className="bg-primary text-white px-8 py-4 rounded-full text-lg font-bold hover:scale-105 transition-transform shadow-lg shadow-primary/30 border border-white/10 inline-flex items-center justify-center"
                         >
-                            Download App
+                            Join the Waitlist
                         </a>
                         <a
                             href="#features-bento"

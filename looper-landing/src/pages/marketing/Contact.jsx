@@ -19,6 +19,10 @@ export default function Contact() {
                     <br /> <span className="text-primary stroke-text-white">LOOP IN WITH THE TEAM</span>
                 </h1>
 
+                <p className="text-xl text-gray-500 max-w-2xl -mt-4 mb-4 font-medium">
+                    Investors, press, and potential partners — this is the fastest way to reach us directly.
+                </p>
+
                 <div className="mt-16 border-t border-gray-200 pt-12">
                     <div className="grid md:grid-cols-2 gap-12">
                         <div>
