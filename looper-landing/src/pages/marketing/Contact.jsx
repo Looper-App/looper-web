@@ -1,8 +1,14 @@
 import { motion as Motion } from 'framer-motion';
+import Seo from '../../components/Seo';
 
 export default function Contact() {
     return (
         <div className="pt-32 pb-24 container mx-auto px-4 min-h-screen flex flex-col justify-center">
+            <Seo
+                title="Contact Looper — Get in Touch with the Team"
+                description="Have a question, partnership idea, or investment interest? Reach the Looper team directly — we're building the social layer for real-world activity in Bangalore."
+                path="/contact"
+            />
             <Motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}

@@ -1,6 +1,13 @@
+import Seo from '../../components/Seo';
+
 export default function ChildSafety() {
     return (
         <main className="bg-charcoal text-cream min-h-screen pt-32 pb-24">
+            <Seo
+                title="Child Safety Standards — Looper"
+                description="Looper's standards and practices against Child Sexual Abuse and Exploitation (CSAE), in compliance with Google Play's Child Safety Standards policy."
+                path="/child-safety"
+            />
             <div className="container mx-auto px-4 max-w-3xl">
                 <h1 className="text-6xl font-condensed font-bold mb-4">Child Safety Standards</h1>
                 <p className="text-gray-500 text-sm mb-16">Effective Date: June 24, 2026</p>
