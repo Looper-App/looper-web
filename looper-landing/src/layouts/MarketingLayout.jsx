@@ -3,6 +3,7 @@ import { Outlet, NavLink, Link } from 'react-router-dom';
 import { AnimatePresence, motion as Motion } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 import Footer from '../components/Footer';
+import logo from '../assets/logo-black.png';
 
 const NAV_LINKS = [
     { to: '/', label: 'Home', end: true },
@@ -23,7 +24,10 @@ export default function MarketingLayout() {
             {/* Navigation */}
             <nav className="fixed w-full z-50 top-0 left-0 bg-black/95 backdrop-blur-md border-b border-gray-900/50 transition-all duration-300">
                 <div className="container mx-auto px-4 h-20 flex items-center justify-between">
-                    <Link to="/" className="text-3xl font-condensed font-bold text-primary tracking-tight">looper.</Link>
+                    <Link to="/" className="flex items-center gap-2 text-3xl font-condensed font-bold text-primary tracking-tight">
+                        <img src={logo} alt="Looper" className="w-9 h-9 rounded-full" />
+                        looper.
+                    </Link>
 
                     <div className="hidden md:flex gap-8 font-bold text-base">
                         {NAV_LINKS.map(({ to, label, end }) => (
