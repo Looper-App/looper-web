@@ -38,7 +38,7 @@ export default function Pitch() {
                 An overview of the problem, our solution, and where Looper is headed.
             </p>
 
-            <div className="relative w-full max-w-6xl mx-auto">
+            <div className="relative w-full mx-auto">
                 <div className="relative w-full aspect-video rounded-2xl overflow-hidden border border-gray-200 shadow-2xl bg-black">
                     <AnimatePresence mode="wait">
                         <Motion.img
