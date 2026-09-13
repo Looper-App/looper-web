@@ -1,4 +1,5 @@
 import { motion as Motion } from 'framer-motion';
+import { Calendar } from 'lucide-react';
 import Seo from '../../components/Seo';
 
 export default function Contact() {
@@ -19,9 +20,19 @@ export default function Contact() {
                     <br /> <span className="text-primary stroke-text-white">LOOP IN WITH THE TEAM</span>
                 </h1>
 
-                <p className="text-xl text-gray-500 max-w-2xl -mt-4 mb-4 font-medium">
+                <p className="text-xl text-gray-500 max-w-2xl -mt-4 mb-8 font-medium">
                     Investors, press, and potential partners — this is the fastest way to reach us directly.
                 </p>
+
+                <a
+                    href="https://calendly.com/athul-sreekumar"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-3 bg-primary text-black px-8 py-4 rounded-full text-lg font-bold hover:scale-105 transition-transform shadow-lg shadow-primary/30"
+                >
+                    <Calendar className="w-5 h-5" />
+                    Schedule a Meeting
+                </a>
 
                 <div className="mt-16 border-t border-gray-200 pt-12">
                     <div className="grid md:grid-cols-2 gap-12">
