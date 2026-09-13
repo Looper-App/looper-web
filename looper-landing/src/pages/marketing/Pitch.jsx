@@ -23,7 +23,7 @@ export default function Pitch() {
     }, [index, goTo]);
 
     return (
-        <div className="pt-32 pb-24 container mx-auto px-4 min-h-screen">
+        <div className="pt-28 pb-12 min-h-screen">
             <Seo
                 title="Pitch Deck — Looper"
                 description="Looper's investor pitch deck: the problem, our solution, safety-first design, business model, market strategy, and financials."
@@ -31,15 +31,17 @@ export default function Pitch() {
                 noindex
             />
 
-            <h1 className="text-6xl md:text-8xl font-condensed font-bold mb-4 text-charcoal">
-                PITCH <span className="text-primary">DECK</span>
-            </h1>
-            <p className="text-lg text-gray-500 max-w-2xl mb-12">
-                An overview of the problem, our solution, and where Looper is headed.
-            </p>
+            <div className="container mx-auto px-4">
+                <h1 className="text-6xl md:text-8xl font-condensed font-bold mb-4 text-charcoal">
+                    PITCH <span className="text-primary">DECK</span>
+                </h1>
+                <p className="text-lg text-gray-500 max-w-2xl mb-8">
+                    An overview of the problem, our solution, and where Looper is headed.
+                </p>
+            </div>
 
-            <div className="relative w-full max-w-5xl mx-auto">
-                <div className="relative w-full aspect-video rounded-2xl overflow-hidden border border-gray-200 shadow-2xl bg-black">
+            <div className="relative w-full mx-auto px-2 sm:px-4">
+                <div className="relative w-full aspect-video md:aspect-auto md:h-[80vh] rounded-2xl overflow-hidden border border-gray-200 shadow-2xl bg-black">
                     <AnimatePresence mode="wait">
                         <Motion.img
                             key={index}
