@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer'
 
 // https://vite.dev/config/
-export default defineConfig({
+export default defineConfig(({ isSsrBuild }) => ({
   plugins: [
     react(),
     // Losslessly-ish compresses every image (including the public/ folder)
@@ -17,12 +17,17 @@ export default defineConfig({
   ],
   build: {
     rollupOptions: {
-      output: {
-        manualChunks: {
-          'react-vendor': ['react', 'react-dom', 'react-router-dom'],
-          'motion-vendor': ['framer-motion'],
+      output: isSsrBuild
+        ? undefined
+        : {
+          // react/react-dom are externalized (not bundled) for the SSR
+          // build, so manualChunks referencing them would error there —
+          // this vendor split is a client-build-only optimization anyway.
+          manualChunks: {
+            'react-vendor': ['react', 'react-dom', 'react-router-dom'],
+            'motion-vendor': ['framer-motion'],
+          },
         },
-      },
     },
   },
-})
+}))
