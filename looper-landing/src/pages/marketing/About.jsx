@@ -89,6 +89,31 @@ export default function About() {
                     ))}
                 </div>
             </div>
+
+            <section className="mt-16 rounded-3xl bg-charcoal text-cream p-8 md:p-12 grid gap-8 md:grid-cols-[1fr_1fr] items-end" aria-labelledby="parent-company">
+                <div>
+                    <div className="text-sm uppercase tracking-[0.45em] text-gray-400 mb-6">The company behind Looper</div>
+                    <h2 id="parent-company" className="text-5xl md:text-7xl font-condensed font-bold leading-none">
+                        MADE BY <br /><span className="text-primary">THE OTHER COMPANY.</span>
+                    </h2>
+                </div>
+                <div className="space-y-5">
+                    <p className="text-lg leading-relaxed">
+                        Looper is built by The Other Company, an independent product, engineering and research company.
+                    </p>
+                    <p className="text-gray-400 leading-relaxed">
+                        It builds its own products, works with businesses on AI and software, and gives working time back to open source. OpenDot, a team of AI agents that lives on your computer, is its other product.
+                    </p>
+                    <a
+                        href="https://other-company.com"
+                        target="_blank"
+                        rel="noopener"
+                        className="inline-block font-bold text-primary underline underline-offset-4 hover:text-cream transition-colors"
+                    >
+                        About The Other Company <span aria-hidden="true">↗</span><span className="sr-only"> (opens in a new tab)</span>
+                    </a>
+                </div>
+            </section>
         </div>
     )
 }

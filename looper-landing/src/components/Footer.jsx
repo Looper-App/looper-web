@@ -25,7 +25,8 @@ export default function Footer() {
                 </div>
             </div>
             <div className="container mx-auto px-4 mt-24 pt-8 border-t border-gray-900 text-center text-gray-600 text-sm">
-                &copy; {new Date().getFullYear()} Looper Inc. Bangalore.
+                &copy; {new Date().getFullYear()} Looper Inc. Bangalore. A product of{' '}
+                <a href="https://other-company.com" target="_blank" rel="noopener" className="underline underline-offset-2 hover:text-primary transition-colors">The Other Company</a>.
             </div>
         </footer>
     );
